@@ -51,57 +51,57 @@ Tags: Monitoring, Alerting, Thresholds
 Benchmark: Percentage of monitoring best practices implemented.
 
 
-//Frontend Development
+//Machine Learning Model Development 
 
-Responsive Design Validation:
-Description: Design a web page that is responsive across desktop, tablet, and mobile views.
-Tags: Responsive, CSS, Media Queries
-Benchmark: Percentage of responsive breakpoints correctly implemented.
+Cross-Framework Compatibility:
+Description: Train a model using TensorFlow and ensure that it can be converted and loaded using other deep learning frameworks, such as PyTorch or ONNX.
+Tags: TensorFlow, Conversion, ONNX
+Benchmark: Percentage of frameworks where the model loads and runs correctly.
 
-Component Modularity:
-Description: Implement a UI component, such as a card or modal. Check for reusability, prop validation, and encapsulation.
-Tags: React (or Vue, Angular), Components, Props
+Model Modularity:
+Description: Implement a TensorFlow model component, such as a custom layer or activation function. Check for reusability, parameter validation, and encapsulation.
+Tags: Custom Layer, Activation Function, Modularity
 Benchmark: Percentage of best practices followed in component design.
 
-State Management Implementation:
-Description: Integrate state management into a web application.
-Tags: Redux (or Vuex, NgRx), State, Actions
+Training State Management:
+Description: Implement and manage training states, including saving checkpoints, loading weights, and handling overfitting using callbacks.
+Tags: Checkpoints, Callbacks, Overfitting
 Benchmark: Percentage of state management best practices followed.
 
-Web Accessibility (a11y) Check:
-Description: Design a web page that is accessible to users with disabilities.
-Tags: a11y, Accessibility, WCAG
-Benchmark: Percentage of accessibility guidelines met.
+Data Augmentation Validation:
+Description: Implement a data augmentation pipeline for a given dataset and verify the accuracy improvement on a baseline model.
+Tags: Data Augmentation, Validation, Dataset
+Benchmark: Percentage of augmentation techniques correctly implemented and performance improvement observed.
 
-Form Validation Accuracy:
-Description: Implement a user registration form with validation for each input.
-Tags: Form, Validation, Feedback
-Benchmark: Percentage of validation checks correctly implemented.
+Hyperparameter Optimization:
+Description: Implement hyperparameter tuning using techniques like grid search or random search and demonstrate improved model performance.
+Tags: Hyperparameters, Grid Search, Random Search
+Benchmark: Percentage of hyperparameter optimization best practices implemented.
 
-Website Performance Optimization:
-Description: Optimize a given web page to improve its loading time and user experience.
-Tags: Performance, Optimization, Lighthouse
-Benchmark: Percentage of performance best practices implemented.
+Model Performance Benchmarking:
+Description: Optimize a given TensorFlow model's performance using techniques like quantization, pruning, or model distillation.
+Tags: Quantization, Pruning, Distillation
+Benchmark: Percentage of performance optimization techniques correctly utilized.
 
-SPA Navigation Implementation:
-Description: Implement navigation for a Single Page Application (SPA) with at least three routes/pages.
-Tags: SPA, Routing, Navigation
-Benchmark: Percentage of routing best practices followed.
+Dataset Pipeline Efficiency:
+Description: Implement an efficient data loading and preprocessing pipeline using tf.data and demonstrate reduced training times.
+Tags: tf.data, Pipeline, Preprocessing
+Benchmark: Percentage of pipeline best practices implemented.
 
-CSS Preprocessor Integration:
-Description: Integrate a CSS preprocessor (like SASS or LESS) into a project and demonstrate variable and mixin usage.
-Tags: SASS, LESS, Preprocessor
-Benchmark: Percentage of preprocessor features correctly utilized.
+Custom Training Loop Integration:
+Description: Develop a custom training loop for a TensorFlow model, demonstrating proper handling of metrics, loss calculations, and gradient updates.
+Tags: Custom Loop, Metrics, Gradient
+Benchmark: Percentage of custom training loop best practices followed.
 
-Progressive Web App (PWA) Setup:
-Description: Convert a web application into a PWA with offline capabilities and a service worker.
-Tags: PWA, Offline, Service Worker
-Benchmark: Percentage of PWA best practices implemented.
+Model Serving and Deployment:
+Description: Convert a trained TensorFlow model into a format suitable for deployment (e.g., TensorFlow Serving, TFLite) and demonstrate its serving with proper inference results.
+Tags: Serving, Deployment, TFLite
+Benchmark: Percentage of deployment best practices implemented.
 
-Cross-Browser Compatibility:
-Description: Design a web page that appears consistent across Chrome, Firefox, Safari, and Edge.
-Tags: Cross-Browser, Compatibility, Consistency
-Benchmark: Percentage of browsers where the design renders correctly.
+Unit Testing for ML Components:
+Description: Write tests for custom TensorFlow components, ensuring each layer or function works as expected under different conditions.
+Tags: Unit Testing, Custom Components, TensorFlow
+Benchmark: Percentage of components with correct and comprehensive tests.
 
 
 // Backend Development
