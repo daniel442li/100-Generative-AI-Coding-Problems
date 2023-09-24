@@ -1,4 +1,4 @@
-# **Advanced Problem Suite for Large Language Models (LLMs)**
+# **Large Language Models (LLMs) Testing Framework**
 
 This suite presents a curated set of problems designed explicitly to challenge and evaluate the capabilities of Large Language Models (LLMs) in software engineering scenarios. Unlike conventional coding platforms such as LeetCode that emphasize algorithmic problem-solving, this suite dives into real-world software development challenges, akin to those found in professional settings.
 
@@ -17,25 +17,39 @@ This suite presents a curated set of problems designed explicitly to challenge a
 This suite is a step towards understanding and harnessing the potential of LLMs in the vast landscape of software engineering, pushing the boundaries of autonomous artificial intelligence in real-world applications.
 
 ---
-
-## **2. How to Run the Benchmark**
+## **2. How to Run the Application**
 
 ### a. Setup:
-- Prepare a development environment with the necessary software tools, databases, and frameworks depending on the specific benchmark.
-- Ensure an automated testing setup is in place, tailored to the specific benchmark in question.
+- Prepare your development environment ensuring you have the necessary software tools installed, including Python and pip (Python's package installer).
+- It's advisable to work within a virtual environment to manage dependencies for your project and ensure its requirements are isolated from the global environment.
 
-### b. Distribution:
-- Present the benchmark problem to the LLM or the candidate.
-- Provide all necessary data, mock systems, or additional resources they might need.
+### b. Creating a Virtual Environment:
+- Open a terminal and navigate to the project directory.
+- Run the following command to create a virtual environment named `venv` (you can name it anything you prefer):
+    ```bash
+    python3 -m venv venv
+    ```
+- This will create a virtual environment in the project directory which will help to keep dependencies required by different projects separate.
 
-### c. Execution:
-- Allow the LLM or candidate to solve the problem, ensuring they adhere to the requirements and best practices.
-- Once the solution is submitted, run the predefined unit tests or evaluation scripts against the solution.
+### c. Activating the Virtual Environment:
+- To activate the virtual environment, run:
+    ```bash
+    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    ```
+- Once activated, the virtual environment will isolate your Python environment from the global environment.
 
-### d. Evaluation:
-- The benchmark has predefined metrics, usually in the form of a percentage score, indicating how close the solution is to the ideal.
-- Collate results and analyze based on the metric criteria.
+### d. Installing Dependencies:
+- With the virtual environment activated, you can now install the project's dependencies using pip. Run:
+    ```bash
+    pip install -r requirements.txt
+    ```
+- This will install all the necessary dependencies listed in the `requirements.txt` file.
 
+### e. Running the Application:
+- Now that the dependencies are installed, you can run the application by executing the following command:
+    ```bash
+    python -m main.py
+    ```
 ---
 
 ## **3. Novelty of the Benchmark**
@@ -46,25 +60,3 @@ Traditional coding challenges, like those seen on platforms such as LeetCode, em
 - **Emphasis on Quality:** Focuses not just on solving a problem but on how it's solved, ensuring the solution is production-ready.
 - **Diverse Software Engineering Aspects:** Covers various fields such as system design, microservices, database optimization, and more, providing a holistic assessment.
 - **Automated Evaluation:** Uses automated testing and scoring to provide objective feedback on the solutions.
-
----
-
-## **4. What It Assesses**
-
-### a. Technical Proficiency:
-- The ability to correctly implement a solution that meets the problem's requirements.
-
-### b. Architectural Understanding:
-- Skills in designing systems, whether they're microservices architectures, databases, or full-fledged applications.
-
-### c. Best Practices:
-- Adherence to industry best practices, ensuring the solution is maintainable, scalable, and robust.
-
-### d. Real-world Application:
-- The ability to develop solutions that can be directly applied in a production environment, rather than just theoretical or algorithmic solutions.
-
-### e. Performance and Optimization:
-- Understanding of how to make software efficient, optimized, and performant.
-
-### f. Security and Robustness:
-- Skills in ensuring the software is secure from potential threats and can handle unexpected scenarios gracefully.
